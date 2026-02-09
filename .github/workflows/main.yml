@@ -1,21 +1,38 @@
-name: Crafty + Backup + Ngrok
+name: Crafty + Ngrok Automation
 
 on:
   workflow_dispatch:
+  schedule:
+    # Codziennie co 6 godzin (przykład)
+    - cron: '0 */6 * * *'
 
 jobs:
-  crafty:
+  crafty-ngrok:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up environment
+      # -----------------------
+      # Instalacja Dockera
+      # -----------------------
+      - name: Install Docker & Docker Compose
         run: |
-          sudo apt update
-          sudo apt install -y screen curl unzip openjdk-17-jdk docker.io docker-compose zip
+          sudo apt-get update
+          sudo apt-get install -y docker.io docker-compose
+          docker --version
+          docker-compose --version
 
-      - name: Install ngrok
+      # -----------------------
+      # Instalacja screen
+      # -----------------------
+      - name: Install screen
+        run: sudo apt-get install -y screen
+
+      # -----------------------
+      # Instalacja Ngrok
+      # -----------------------
+      - name: Install Ngrok
         run: |
           curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
             | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
@@ -23,51 +40,46 @@ jobs:
             | sudo tee /etc/apt/sources.list.d/ngrok.list
           sudo apt update
           sudo apt install -y ngrok
+          ngrok config add-authtoken ${{ secrets.NGROK_TOKEN }}
 
-      - name: Add ngrok authtoken
-        run: ngrok config add-authtoken ${{ secrets.NGROK_TOKEN }}
-
-      - name: Restore backup if exists
+      # -----------------------
+      # Start Ngrok w screenie
+      # -----------------------
+      - name: Start Ngrok tunnel
         run: |
-          if [ -f backup/docker-backup.zip ]; then
-            echo "Restoring backup..."
-            rm -rf docker
-            unzip backup/docker-backup.zip -d .
-          else
-            echo "No backup found, using existing docker folder"
-          fi
-
-      - name: Stop Crafty if running
-        run: |
-          docker-compose -f docker-compose.yml down || echo "Not running"
-
-      - name: Start Crafty server in screen
-        run: |
-          screen -S crafty -dm bash -c "docker-compose -f docker-compose.yml up -d && docker-compose -f docker-compose.yml logs -f"
-
-      - name: Create backup of docker folder
-        run: |
-          mkdir -p backup
-          zip -r backup/docker-backup.zip docker
-
-      - name: Commit backup to repo
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add backup/docker-backup.zip
-          git commit -m "Update docker backup [skip ci]" || echo "No changes"
-          git push
-
-      - name: Start ngrok for Crafty panel
-        run: |
-          screen -S ngrok -dm ngrok http 8443
+          screen -dmS ngrok ngrok http 8443
+          # zapisujemy URL ngrok do pliku
           sleep 5
-          curl --silent http://127.0.0.1:4040/api/tunnels | jq -r '.tunnels[0].public_url' > ngrok-url.txt
-          echo "Ngrok URL:"
-          cat ngrok-url.txt
+          NGROK_URL=$(curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url')
+          echo $NGROK_URL > ngrok-url.txt
 
-      - name: Output ngrok URL
-        uses: actions/upload-artifact@v3
+      # -----------------------
+      # Upload Ngrok URL jako artifact
+      # -----------------------
+      - name: Upload Ngrok URL
+        uses: actions/upload-artifact@v4
         with:
           name: ngrok-url
           path: ngrok-url.txt
+
+      # -----------------------
+      # Backup docker folder
+      # -----------------------
+      - name: Backup Docker folder
+        run: |
+          BACKUP_FILE="docker-backup-$(date +'%Y%m%d-%H%M%S').tar.gz"
+          tar -czf $BACKUP_FILE docker
+          ls -lh $BACKUP_FILE
+
+      # -----------------------
+      # Start Crafty z backupu
+      # -----------------------
+      - name: Restore & Start Crafty
+        run: |
+          # Jeśli masz starszy backup, go rozpakowujemy
+          LATEST_BACKUP=$(ls -t docker-backup-*.tar.gz | head -n1 || echo "")
+          if [ -f "$LATEST_BACKUP" ]; then
+            tar -xzf $LATEST_BACKUP -C .
+          fi
+          docker-compose up -d
+          docker-compose logs -f
