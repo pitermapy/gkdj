@@ -1,65 +1,73 @@
-name: Crafty Controller Auto Backup
+name: Crafty + Backup + Ngrok
 
 on:
   workflow_dispatch:
-  schedule:
-    # co 6 godzin (bezpieczne dla limitów GitHub Actions)
-    - cron: '0 */6 * * *'
 
 jobs:
   crafty:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      # ===== RESTORE BACKUP =====
-      - name: Restore docker directory from latest backup
+      - name: Set up environment
         run: |
-          if [ -f docker-backup-latest.tar.gz ]; then
-            echo "Restoring docker/ from backup"
+          sudo apt update
+          sudo apt install -y screen curl unzip openjdk-17-jdk docker.io docker-compose zip
+
+      - name: Install ngrok
+        run: |
+          curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
+            | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
+          echo "deb https://ngrok-agent.s3.amazonaws.com bookworm main" \
+            | sudo tee /etc/apt/sources.list.d/ngrok.list
+          sudo apt update
+          sudo apt install -y ngrok
+
+      - name: Add ngrok authtoken
+        run: ngrok config add-authtoken ${{ secrets.NGROK_TOKEN }}
+
+      - name: Restore backup if exists
+        run: |
+          if [ -f backup/docker-backup.zip ]; then
+            echo "Restoring backup..."
             rm -rf docker
-            tar -xzf docker-backup-latest.tar.gz
+            unzip backup/docker-backup.zip -d .
           else
-            echo "No backup found, starting fresh"
+            echo "No backup found, using existing docker folder"
           fi
 
-      # ===== START CRAFTY =====
-      - name: Start Crafty (docker-compose)
+      - name: Stop Crafty if running
         run: |
-          docker-compose up -d
-          docker-compose logs -f &
-          echo $! > logs.pid
+          docker-compose -f docker-compose.yml down || echo "Not running"
 
-      # ===== RUN TIME =====
-      - name: Run Crafty for 5h 50min
-        run: sleep $((5*3600 + 50*60))
-
-      # ===== STOP =====
-      - name: Stop Crafty
+      - name: Start Crafty server in screen
         run: |
-          docker-compose down
-          if [ -f logs.pid ]; then
-            kill "$(cat logs.pid)" || true
-          fi
+          screen -S crafty -dm bash -c "docker-compose -f docker-compose.yml up -d && docker-compose -f docker-compose.yml logs -f"
 
-      # ===== BACKUP docker/ =====
-      - name: Backup docker directory
+      - name: Create backup of docker folder
         run: |
-          TIMESTAMP=$(date +'%Y%m%d_%H%M%S')
-          tar -czf docker-backup-latest.tar.gz docker
-          cp docker-backup-latest.tar.gz docker-backup-$TIMESTAMP.tar.gz
+          mkdir -p backup
+          zip -r backup/docker-backup.zip docker
 
-      # ===== COMMIT BACKUP =====
       - name: Commit backup to repo
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docker-backup-*.tar.gz
-          git commit -m "Crafty docker backup $TIMESTAMP" || echo "Nothing to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add backup/docker-backup.zip
+          git commit -m "Update docker backup [skip ci]" || echo "No changes"
           git push
 
-      # ===== WAIT TO 5h55min =====
-      - name: Wait remaining 5 minutes
-        run: sleep 300
+      - name: Start ngrok for Crafty panel
+        run: |
+          screen -S ngrok -dm ngrok http 8443
+          sleep 5
+          curl --silent http://127.0.0.1:4040/api/tunnels | jq -r '.tunnels[0].public_url' > ngrok-url.txt
+          echo "Ngrok URL:"
+          cat ngrok-url.txt
+
+      - name: Output ngrok URL
+        uses: actions/upload-artifact@v3
+        with:
+          name: ngrok-url
+          path: ngrok-url.txt
