@@ -3,7 +3,7 @@ name: Crafty Controller Auto Backup
 on:
   workflow_dispatch:
   schedule:
-    # restart workflow co 6h (GitHub limit safety)
+    # co 6 godzin (bezpieczne dla limitów GitHub Actions)
     - cron: '0 */6 * * *'
 
 jobs:
@@ -14,48 +14,52 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Restore latest docker backup
+      # ===== RESTORE BACKUP =====
+      - name: Restore docker directory from latest backup
         run: |
-          if [ -f backups/docker-backup-latest.tar.gz ]; then
-            echo "Restoring docker/ from latest backup"
+          if [ -f docker-backup-latest.tar.gz ]; then
+            echo "Restoring docker/ from backup"
             rm -rf docker
-            tar -xzf backups/docker-backup-latest.tar.gz
+            tar -xzf docker-backup-latest.tar.gz
           else
-            echo "No backup found – starting fresh"
+            echo "No backup found, starting fresh"
           fi
 
+      # ===== START CRAFTY =====
       - name: Start Crafty (docker-compose)
         run: |
-          cd docker
           docker-compose up -d
           docker-compose logs -f &
           echo $! > logs.pid
 
+      # ===== RUN TIME =====
       - name: Run Crafty for 5h 50min
         run: sleep $((5*3600 + 50*60))
 
+      # ===== STOP =====
       - name: Stop Crafty
         run: |
-          cd docker
           docker-compose down
           if [ -f logs.pid ]; then
             kill "$(cat logs.pid)" || true
           fi
 
+      # ===== BACKUP docker/ =====
       - name: Backup docker directory
         run: |
           TIMESTAMP=$(date +'%Y%m%d_%H%M%S')
-          mkdir -p backups
-          tar -czf backups/docker-backup-latest.tar.gz docker
-          cp backups/docker-backup-latest.tar.gz backups/docker-backup-$TIMESTAMP.tar.gz
+          tar -czf docker-backup-latest.tar.gz docker
+          cp docker-backup-latest.tar.gz docker-backup-$TIMESTAMP.tar.gz
 
+      # ===== COMMIT BACKUP =====
       - name: Commit backup to repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add backups
-          git commit -m "Crafty backup $TIMESTAMP" || echo "Nothing to commit"
+          git add docker-backup-*.tar.gz
+          git commit -m "Crafty docker backup $TIMESTAMP" || echo "Nothing to commit"
           git push
 
-      - name: Wait remaining time (5 min)
+      # ===== WAIT TO 5h55min =====
+      - name: Wait remaining 5 minutes
         run: sleep 300
