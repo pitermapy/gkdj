@@ -1,0 +1,2 @@
+2026-02-09 18:47:09,918 - [AUTH] - INFO - Current queued commands: [{'server_id': '29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02', 'user_id': 1, 'command': 'start_server', 'action_id': None}]
+2026-02-09 18:48:01,942 - [AUTH] - INFO - Current queued commands: [{'server_id': '29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02', 'user_id': 1, 'command': 'stop_server', 'action_id': None}]

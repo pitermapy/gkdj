@@ -1,0 +1,274 @@
+2026-02-09 18:43:25,007 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2026-02-09 18:43:25,009 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2026-02-09 18:43:25,030 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210813111015_init"
+2026-02-09 18:43:25,038 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210813111015_init"
+2026-02-09 18:43:25,042 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210819155737_permissions"
+2026-02-09 18:43:25,047 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210819155737_permissions"
+2026-02-09 18:43:25,049 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822092240_crafty_permissions"
+2026-02-09 18:43:25,050 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822092240_crafty_permissions"
+2026-02-09 18:43:25,052 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822101530_delete_User_Servers"
+2026-02-09 18:43:25,053 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822101530_delete_User_Servers"
+2026-02-09 18:43:25,054 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210824205501_permissions_limits_1"
+2026-02-09 18:43:25,061 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210824205501_permissions_limits_1"
+2026-02-09 18:43:25,063 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_backup_schedule"
+2026-02-09 18:43:25,065 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_backup_schedule"
+2026-02-09 18:43:25,118 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_crash"
+2026-02-09 18:43:25,131 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_crash"
+2026-02-09 18:43:25,138 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_cron_task"
+2026-02-09 18:43:25,151 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_cron_task"
+2026-02-09 18:43:25,158 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_first_run_"
+2026-02-09 18:43:25,171 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_first_run_"
+2026-02-09 18:43:25,177 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_one_time_task"
+2026-02-09 18:43:25,189 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_one_time_task"
+2026-02-09 18:43:25,196 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_server_type"
+2026-02-09 18:43:25,210 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_server_type"
+2026-02-09 18:43:25,216 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_user_email"
+2026-02-09 18:43:25,219 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_user_email"
+2026-02-09 18:43:25,221 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_users_log_path"
+2026-02-09 18:43:25,223 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_users_log_path"
+2026-02-09 18:43:25,225 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1"
+2026-02-09 18:43:25,227 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1"
+2026-02-09 18:43:25,228 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1 copy"
+2026-02-09 18:43:25,231 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1 copy"
+2026-02-09 18:43:25,232 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210929205501_user_lang"
+2026-02-09 18:43:25,234 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210929205501_user_lang"
+2026-02-09 18:43:25,236 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211120221511_api_keys"
+2026-02-09 18:43:25,239 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211120221511_api_keys"
+2026-02-09 18:43:25,241 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211121233959_multi_api_keys"
+2026-02-09 18:43:25,242 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211121233959_multi_api_keys"
+2026-02-09 18:43:25,244 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_ignored_exits"
+2026-02-09 18:43:25,246 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_ignored_exits"
+2026-02-09 18:43:25,248 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_schedule_reaction"
+2026-02-09 18:43:25,250 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_schedule_reaction"
+2026-02-09 18:43:25,252 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order"
+2026-02-09 18:43:25,254 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order"
+2026-02-09 18:43:25,255 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order copy"
+2026-02-09 18:43:25,258 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order copy"
+2026-02-09 18:43:25,259 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220227162446_backup_options"
+2026-02-09 18:43:25,261 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220227162446_backup_options"
+2026-02-09 18:43:25,263 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220302_compress_backups"
+2026-02-09 18:43:25,265 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220302_compress_backups"
+2026-02-09 18:43:25,266 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220303_downloading"
+2026-02-09 18:43:25,269 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220303_downloading"
+2026-02-09 18:43:25,270 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220312_support_log_status"
+2026-02-09 18:43:25,273 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220312_support_log_status"
+2026-02-09 18:43:25,275 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220618_crafty_api_secret"
+2026-02-09 18:43:25,276 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220618_crafty_api_secret"
+2026-02-09 18:43:25,277 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220620_backup_shutdown"
+2026-02-09 18:43:25,280 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220620_backup_shutdown"
+2026-02-09 18:43:25,281 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220804_schedule_next_run"
+2026-02-09 18:43:25,284 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220804_schedule_next_run"
+2026-02-09 18:43:25,286 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220805_schedule_rename_comment"
+2026-02-09 18:43:25,288 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220805_schedule_rename_comment"
+2026-02-09 18:43:25,289 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_role_manager"
+2026-02-09 18:43:25,290 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_role_manager"
+2026-02-09 18:43:25,292 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_user_manager"
+2026-02-09 18:43:25,293 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_user_manager"
+2026-02-09 18:43:25,294 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_quota"
+2026-02-09 18:43:25,297 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_quota"
+2026-02-09 18:43:25,299 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_user_crafty"
+2026-02-09 18:43:25,303 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_user_crafty"
+2026-02-09 18:43:25,305 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220821_shutdown_timeout"
+2026-02-09 18:43:25,308 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220821_shutdown_timeout"
+2026-02-09 18:43:25,309 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220912_user_pfp"
+2026-02-09 18:43:25,312 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220912_user_pfp"
+2026-02-09 18:43:25,314 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220926_user_theme"
+2026-02-09 18:43:25,316 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220926_user_theme"
+2026-02-09 18:43:25,318 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20221109_login_photo"
+2026-02-09 18:43:25,320 - [Crafty] - INFO     - app.classes.shared.migration - Done "20221109_login_photo"
+2026-02-09 18:43:25,322 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230111_adding_login_opacity"
+2026-02-09 18:43:25,324 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230111_adding_login_opacity"
+2026-02-09 18:43:25,326 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230119_command_drop"
+2026-02-09 18:43:25,327 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230119_command_drop"
+2026-02-09 18:43:25,329 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230120_backup_command"
+2026-02-09 18:43:25,333 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230120_backup_command"
+2026-02-09 18:43:25,334 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230126_master_server"
+2026-02-09 18:43:25,337 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230126_master_server"
+2026-02-09 18:43:25,338 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230129_secrets_shh"
+2026-02-09 18:43:25,341 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230129_secrets_shh"
+2026-02-09 18:43:25,342 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230603_webhooks"
+2026-02-09 18:43:25,359 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230603_webhooks"
+2026-02-09 18:43:25,361 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230901_user_notif"
+2026-02-09 18:43:25,363 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230901_user_notif"
+2026-02-09 18:43:25,365 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20231229_player_count"
+2026-02-09 18:43:25,368 - [Crafty] - INFO     - app.classes.shared.migration - Done "20231229_player_count"
+2026-02-09 18:43:25,370 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240216_rework_servers_uuid"
+2026-02-09 18:43:25,374 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240216_rework_servers_uuid"
+2026-02-09 18:43:25,378 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240217_rework_servers_uuid_part2"
+2026-02-09 18:43:25,382 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240217_rework_servers_uuid_part2"
+2026-02-09 18:43:25,385 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240308_multi-backup"
+2026-02-09 18:43:25,403 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240308_multi-backup"
+2026-02-09 18:43:25,407 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240310_fixing_rework_servers_uuid"
+2026-02-09 18:43:25,414 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240310_fixing_rework_servers_uuid"
+2026-02-09 18:43:25,466 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240317_apikey_full_access"
+2026-02-09 18:43:25,485 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240317_apikey_full_access"
+2026-02-09 18:43:25,493 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240420_audit_log_drop"
+2026-02-09 18:43:25,501 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240420_audit_log_drop"
+2026-02-09 18:43:25,508 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240811_snapshot_backups"
+2026-02-09 18:43:25,524 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240811_snapshot_backups"
+2026-02-09 18:43:25,533 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20250102_mfa"
+2026-02-09 18:43:25,546 - [Crafty] - INFO     - app.classes.shared.migration - Done "20250102_mfa"
+2026-02-09 18:43:25,551 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20250411_role_mfa_req"
+2026-02-09 18:43:25,562 - [Crafty] - INFO     - app.classes.shared.migration - Done "20250411_role_mfa_req"
+2026-02-09 18:43:25,564 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20250514_db_stats"
+2026-02-09 18:43:25,565 - [Crafty] - INFO     - app.classes.shared.migration - Done "20250514_db_stats"
+2026-02-09 18:43:25,566 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20250703_support_logs"
+2026-02-09 18:43:25,569 - [Crafty] - INFO     - app.classes.shared.migration - Done "20250703_support_logs"
+2026-02-09 18:43:25,571 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20260113_disable_password_auth"
+2026-02-09 18:43:25,573 - [Crafty] - INFO     - app.classes.shared.migration - Done "20260113_disable_password_auth"
+2026-02-09 18:43:25,575 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20260113_passkey"
+2026-02-09 18:43:25,578 - [Crafty] - INFO     - app.classes.shared.migration - Done "20260113_passkey"
+2026-02-09 18:43:25,580 - [Crafty] - INFO     - app.classes.shared.main_models - Fresh Install Detected - Creating Default Settings
+2026-02-09 18:43:27,096 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2026-02-09 18:43:27,096 - [Crafty] - INFO     - app.classes.helpers.helpers - SSL Cert File is set to: /crafty/app/config/web/certs/commander.cert.pem
+2026-02-09 18:43:27,097 - [Crafty] - INFO     - app.classes.helpers.helpers - SSL Key File is set to: /crafty/app/config/web/certs/commander.key.pem
+2026-02-09 18:43:27,097 - [Crafty] - INFO     - app.classes.helpers.helpers - Generating a self signed SSL
+2026-02-09 18:43:27,097 - [Crafty] - INFO     - app.classes.helpers.helpers - Generating a key pair. This might take a moment.
+2026-02-09 18:43:27,256 - [Crafty] - INFO     - app.classes.helpers.helpers - Self-signed certificate and key generation completed.
+2026-02-09 18:43:27,259 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports https:8443
+2026-02-09 18:43:27,268 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://172.18.0.2:8443 is up and ready for connections.
+2026-02-09 18:43:29,793 - [Crafty] - ERROR    - app.classes.helpers.helpers - /crafty/app/config/bigbucket.json does not exist
+2026-02-09 18:43:29,794 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:43:30,152 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:43:30,152 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Automatic cache refresh initiated due to old cache.
+2026-02-09 18:43:30,153 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:43:30,246 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:43:30,587 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Cache file successfully refreshed manually.
+2026-02-09 18:43:30,587 - [Crafty] - ERROR    - app.classes.helpers.helpers - /crafty/app/config/hytale.json does not exist
+2026-02-09 18:43:30,587 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:43:30,669 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:43:30,670 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Automatic cache refresh initiated due to old cache.
+2026-02-09 18:43:30,672 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:43:30,926 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:43:31,007 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Cache file successfully refreshed manually.
+2026-02-09 18:43:31,257 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2026-02-09 18:43:33,258 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Manual bucket cache refresh initiated.
+2026-02-09 18:43:33,258 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:43:33,591 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:43:33,688 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Cache file successfully refreshed manually.
+2026-02-09 18:43:33,689 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Manual refresh completed.
+2026-02-09 18:43:34,845 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2026-02-09 18:43:34,845 - [Crafty] - INFO     - __main__ - Application path: '/crafty'
+2026-02-09 18:43:35,132 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2026-02-09 18:45:47,560 - [Crafty] - INFO     - app.classes.web.routes.api.auth.login - User: 1 Logged in from IP: 31.42.10.77
+2026-02-09 18:45:47,563 - [Crafty] - INFO     - audit_log - logged in via the API
+2026-02-09 18:46:15,214 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Checking Big Bucket status
+2026-02-09 18:46:15,300 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - Big bucket is alive and responding as expected
+2026-02-09 18:47:00,233 - [Crafty] - INFO     - app.classes.shared.main_controller - No server.properties found on import.Creating one with port selection of 25565
+2026-02-09 18:47:00,238 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:47:00,239 - [Crafty] - WARNING  - app.classes.models.server_stats - Error try to create the db_stats folder for server : [Errno 17] File exists: '/crafty/app/config/db/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02'
+2026-02-09 18:47:00,239 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2026-02-09 18:47:00,245 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220427_init"
+2026-02-09 18:47:00,247 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220427_init"
+2026-02-09 18:47:00,249 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220817_schedule_rename_downloading"
+2026-02-09 18:47:00,250 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220817_schedule_rename_downloading"
+2026-02-09 18:47:00,252 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230827_add_icon"
+2026-02-09 18:47:00,252 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230827_add_icon"
+2026-02-09 18:47:00,258 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02 | Server Name: GKDJ | Auto Start: False
+2026-02-09 18:47:00,778 - [Crafty] - INFO     - audit_log - created server GKDJ (ID: 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02) (UUID: 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02)
+2026-02-09 18:47:03,277 - [Crafty] - INFO     - app.classes.big_bucket.bigbucket - https://jars.arcadiatech.org/paper/1.21.11/paper.jar
+2026-02-09 18:47:03,304 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Requesting remote: https://jars.arcadiatech.org/paper/1.21.11/paper.jar
+2026-02-09 18:47:03,304 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download Destination: /crafty/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/paper-1.21.11.jar
+2026-02-09 18:47:03,374 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 1.91%
+2026-02-09 18:47:03,377 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 3.83%
+2026-02-09 18:47:03,380 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 5.74%
+2026-02-09 18:47:03,382 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 7.65%
+2026-02-09 18:47:03,385 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 9.56%
+2026-02-09 18:47:03,388 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 11.48%
+2026-02-09 18:47:03,391 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 13.39%
+2026-02-09 18:47:03,394 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 15.30%
+2026-02-09 18:47:03,397 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 17.22%
+2026-02-09 18:47:03,400 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 19.13%
+2026-02-09 18:47:03,403 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 21.04%
+2026-02-09 18:47:03,407 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 22.95%
+2026-02-09 18:47:03,410 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 24.87%
+2026-02-09 18:47:03,413 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 26.78%
+2026-02-09 18:47:03,416 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 28.69%
+2026-02-09 18:47:03,420 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 30.61%
+2026-02-09 18:47:03,425 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 32.52%
+2026-02-09 18:47:03,429 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 34.43%
+2026-02-09 18:47:03,432 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 36.34%
+2026-02-09 18:47:03,434 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 38.26%
+2026-02-09 18:47:03,437 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 40.17%
+2026-02-09 18:47:03,441 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 42.08%
+2026-02-09 18:47:03,444 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 44.00%
+2026-02-09 18:47:03,448 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 45.91%
+2026-02-09 18:47:03,452 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 47.82%
+2026-02-09 18:47:03,455 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 49.73%
+2026-02-09 18:47:03,458 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 51.65%
+2026-02-09 18:47:03,460 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 53.56%
+2026-02-09 18:47:03,463 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 55.47%
+2026-02-09 18:47:03,466 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 57.39%
+2026-02-09 18:47:03,468 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 59.30%
+2026-02-09 18:47:03,471 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 61.21%
+2026-02-09 18:47:03,474 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 63.13%
+2026-02-09 18:47:03,477 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 65.04%
+2026-02-09 18:47:03,480 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 66.95%
+2026-02-09 18:47:03,483 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 68.86%
+2026-02-09 18:47:03,486 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 70.78%
+2026-02-09 18:47:03,488 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 72.69%
+2026-02-09 18:47:03,491 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 74.60%
+2026-02-09 18:47:03,496 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 76.52%
+2026-02-09 18:47:03,498 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 78.43%
+2026-02-09 18:47:03,502 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 80.34%
+2026-02-09 18:47:03,504 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 82.25%
+2026-02-09 18:47:03,507 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 84.17%
+2026-02-09 18:47:03,510 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 86.08%
+2026-02-09 18:47:03,513 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 87.99%
+2026-02-09 18:47:03,518 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 89.91%
+2026-02-09 18:47:03,520 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 91.82%
+2026-02-09 18:47:03,524 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 93.73%
+2026-02-09 18:47:03,526 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 95.64%
+2026-02-09 18:47:03,529 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 97.56%
+2026-02-09 18:47:03,532 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 99.47%
+2026-02-09 18:47:03,533 - [Crafty] - INFO     - app.classes.helpers.file_helpers - SSL File Get - Download progress: 100.00%
+2026-02-09 18:47:09,808 - [Crafty] - INFO     - audit_log - issued command start_server for server GKDJ with ID: 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:47:09,919 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics GKDJ every 5 seconds
+2026-02-09 18:47:09,920 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics GKDJ every 30 seconds
+2026-02-09 18:47:09,922 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server GKDJ
+2026-02-09 18:47:09,922 - [Crafty] - INFO     - app.classes.helpers.helpers - /crafty/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/tempfile.txt is writable
+2026-02-09 18:47:09,924 - [Crafty] - INFO     - app.classes.shared.server - Launching Server GKDJ with command ['java', '-Xms1000M', '-Xmx16384000M', '-jar', 'paper-1.21.11.jar', 'nogui']
+2026-02-09 18:47:11,167 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics GKDJ every 5 seconds
+2026-02-09 18:47:11,168 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics GKDJ every 30 seconds
+2026-02-09 18:47:11,171 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server GKDJ
+2026-02-09 18:47:11,171 - [Crafty] - INFO     - app.classes.helpers.helpers - /crafty/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/tempfile.txt is writable
+2026-02-09 18:47:11,173 - [Crafty] - INFO     - app.classes.shared.server - Launching Server GKDJ with command ['java', '-Xms1000M', '-Xmx16384000M', '-jar', 'paper-1.21.11.jar', 'nogui']
+2026-02-09 18:47:11,174 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2026-02-09 18:47:11,174 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02 with command: ['java', '-Xms1000M', '-Xmx16384000M', '-jar', 'paper-1.21.11.jar', 'nogui']
+2026-02-09 18:47:11,179 - [Crafty] - INFO     - app.classes.shared.server - Server GKDJ running with PID 188
+2026-02-09 18:47:50,267 - [Crafty] - INFO     - app.classes.remote_stats.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/remote_stats/stats.py", line 239, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2026-02-09 18:47:50,305 - [Crafty] - INFO     - app.classes.remote_stats.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/remote_stats/stats.py", line 248, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2026-02-09 18:47:51,679 - [Crafty] - INFO     - app.classes.remote_stats.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/remote_stats/stats.py", line 239, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2026-02-09 18:47:51,685 - [Crafty] - INFO     - app.classes.remote_stats.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/remote_stats/stats.py", line 248, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2026-02-09 18:48:01,560 - [Crafty] - INFO     - audit_log - issued command stop_server for server GKDJ with ID: 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:48:01,943 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for GKDJ.
+2026-02-09 18:48:01,946 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2026-02-09 18:48:01,946 - [Crafty] - INFO     - app.classes.shared.server - Server GKDJ is still running - waiting 2s to see if it stops(58 seconds until force close)
+2026-02-09 18:48:03,947 - [Crafty] - INFO     - app.classes.shared.server - Server GKDJ is still running - waiting 2s to see if it stops(56 seconds until force close)
+2026-02-09 18:48:05,947 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server GKDJ with PID 188
+2026-02-09 18:48:05,948 - [Crafty] - INFO     - app.classes.shared.server - Cleaning up stats schedules for server 29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:48:32,349 - [Crafty] - INFO     - audit_log - edited user admin (UID: 1)with roles set()
+2026-02-09 18:48:54,152 - [Crafty] - INFO     - app.classes.web.routes.api.crafty.upload.index - File upload completed. Filename: GKDJ.png Path: /crafty/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/GKDJ.png Type: server_upload
+2026-02-09 18:48:54,155 - [Crafty] - INFO     - audit_log - Uploaded file GKDJ.png
+2026-02-09 18:49:06,704 - [Crafty] - INFO     - audit_log - Renamed item GKDJ.png to icon.png
+2026-02-09 18:49:43,578 - [Crafty] - INFO     - audit_log - Renamed item icon.png to server-icon.png

@@ -1,0 +1,1099 @@
+2026-02-09 18:45:27,905 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 302,
+    "Method": "GET",
+    "URL": "/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.51ms"
+}
+2026-02-09 18:45:28,043 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 302,
+    "Method": "GET",
+    "URL": "/panel/dashboard",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.63ms"
+}
+2026-02-09 18:45:28,195 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/login?next=%2Fpanel%2Fdashboard",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.78ms"
+}
+2026-02-09 18:45:28,476 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/mdi/css/materialdesignicons.min.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.07ms"
+}
+2026-02-09 18:45:28,548 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/flag-icon-css/css/flag-icon.min.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.16ms"
+}
+2026-02-09 18:45:28,555 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/ti-icons/css/themify-icons.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.72ms"
+}
+2026-02-09 18:45:28,823 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 404,
+    "Method": "GET",
+    "URL": "/static/assets/css/login.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.48ms"
+}
+2026-02-09 18:45:28,834 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/typicons/typicons.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.13ms"
+}
+2026-02-09 18:45:28,843 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/css/vendor.bundle.base.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.14ms"
+}
+2026-02-09 18:45:29,119 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 404,
+    "Method": "GET",
+    "URL": "/static/assest/css/internal/root.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.49ms"
+}
+2026-02-09 18:45:29,199 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/crafty.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.36ms"
+}
+2026-02-09 18:45:29,202 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/base-style.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "78.51ms"
+}
+2026-02-09 18:45:29,203 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/themes/default.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.11ms"
+}
+2026-02-09 18:45:29,240 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-login_page.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.06ms"
+}
+2026-02-09 18:45:29,245 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/vendor.bundle.base.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "2.11ms"
+}
+2026-02-09 18:45:29,247 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/images/logo_long.svg",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.35ms"
+}
+2026-02-09 18:45:29,250 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/off-canvas.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.52ms"
+}
+2026-02-09 18:45:29,298 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/hoverable-collapse.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.08ms"
+}
+2026-02-09 18:45:29,302 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/misc.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.68ms"
+}
+2026-02-09 18:45:29,348 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 404,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/todolist.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.73ms"
+}
+2026-02-09 18:45:29,352 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 404,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/settings.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.41ms"
+}
+2026-02-09 18:45:29,390 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/bootbox.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.62ms"
+}
+2026-02-09 18:45:29,393 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/passkey.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.72ms"
+}
+2026-02-09 18:45:29,397 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/fonts/Atkinson_Hyperlegible_Next/AtkinsonHyperlegible.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.52ms"
+}
+2026-02-09 18:45:29,584 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/fonts/Atkinson_Hyperlegible_Next/AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "69.02ms"
+}
+2026-02-09 18:45:29,585 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 400,
+    "Method": "POST",
+    "URL": "/api/v2/auth/passkey/login/options/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "69.24ms"
+}
+2026-02-09 18:45:29,586 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "69.39ms"
+}
+2026-02-09 18:45:29,588 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/images/auth/login_1.jpg",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "141.81ms"
+}
+2026-02-09 18:45:29,701 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/images/favicon.png",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.45ms"
+}
+2026-02-09 18:45:29,739 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/images/logo_small.svg",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.69ms"
+}
+2026-02-09 18:45:47,564 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/auth/login/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "112.87ms"
+}
+2026-02-09 18:45:47,645 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/dashboard",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "37.83ms"
+}
+2026-02-09 18:45:47,707 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/internal/root.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.89ms"
+}
+2026-02-09 18:45:47,711 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/fontawesome6/css/all.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.36ms"
+}
+2026-02-09 18:45:47,723 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-notification.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.30ms"
+}
+2026-02-09 18:45:47,727 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-warn.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.47ms"
+}
+2026-02-09 18:45:47,742 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/themes/light.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.95ms"
+}
+2026-02-09 18:45:47,744 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/themes/dark.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.70ms"
+}
+2026-02-09 18:45:47,747 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/css/bootstrap-toggle.min.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.88ms"
+}
+2026-02-09 18:45:47,754 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/internal/anti-lockout.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.88ms"
+}
+2026-02-09 18:45:47,762 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/jquery.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.13ms"
+}
+2026-02-09 18:45:47,773 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/themes/ronald.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.63ms"
+}
+2026-02-09 18:45:47,777 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/chartjs-plugin-zoom.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.11ms"
+}
+2026-02-09 18:45:47,779 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/hammer.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.70ms"
+}
+2026-02-09 18:45:47,783 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/crafty-toggle-btn.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.16ms"
+}
+2026-02-09 18:45:47,800 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/chart.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.04ms"
+}
+2026-02-09 18:45:47,802 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/images/faces-clipart/pic-3.png",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.56ms"
+}
+2026-02-09 18:45:47,827 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-sidebar.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.69ms"
+}
+2026-02-09 18:45:47,830 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/vendors/datatables.min.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.01ms"
+}
+2026-02-09 18:45:47,856 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-footer.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.99ms"
+}
+2026-02-09 18:45:47,879 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/datatables.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.86ms"
+}
+2026-02-09 18:45:47,900 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/motd.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.54ms"
+}
+2026-02-09 18:45:47,923 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/css/jquery-ui.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.68ms"
+}
+2026-02-09 18:45:47,926 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/cdn.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.82ms"
+}
+2026-02-09 18:45:47,930 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/bootstrap-toggle.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.56ms"
+}
+2026-02-09 18:45:47,933 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/css/jquery-ui.structure.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.34ms"
+}
+2026-02-09 18:45:47,938 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/js/jquery-ui.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.29ms"
+}
+2026-02-09 18:45:47,941 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/fontawesome6/webfonts/fa-solid-900.woff2",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.82ms"
+}
+2026-02-09 18:45:47,944 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/fontawesome6/webfonts/fa-brands-400.woff2",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.45ms"
+}
+2026-02-09 18:45:47,948 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.7.95",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "2.07ms"
+}
+2026-02-09 18:45:47,995 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/fonts/Atkinson_Hyperlegible_Next/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "43.65ms"
+}
+2026-02-09 18:45:48,022 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fdashboard&page_query_params=",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.44ms"
+}
+2026-02-09 18:45:48,594 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "527.91ms"
+}
+2026-02-09 18:45:49,893 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.50ms"
+}
+2026-02-09 18:46:15,322 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/server/step1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1164.16ms"
+}
+2026-02-09 18:46:15,413 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/vendors/bootstrap-select-1.13.18.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.09ms"
+}
+2026-02-09 18:46:15,419 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-wizard.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "2.79ms"
+}
+2026-02-09 18:46:15,425 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/bootstrap-select-1.13.18.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.01ms"
+}
+2026-02-09 18:46:15,429 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/root-dir.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.80ms"
+}
+2026-02-09 18:46:15,525 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fserver%2Fstep1&page_query_params=",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.40ms"
+}
+2026-02-09 18:46:15,538 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/upload.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.70ms"
+}
+2026-02-09 18:46:16,048 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "467.43ms"
+}
+2026-02-09 18:46:17,195 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.51ms"
+}
+2026-02-09 18:47:00,779 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 201,
+    "Method": "POST",
+    "URL": "/api/v2/servers/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "586.29ms"
+}
+2026-02-09 18:47:00,870 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/dashboard",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "42.79ms"
+}
+2026-02-09 18:47:01,421 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "456.88ms"
+}
+2026-02-09 18:47:01,422 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fdashboard&page_query_params=",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.97ms"
+}
+2026-02-09 18:47:02,700 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.66ms"
+}
+2026-02-09 18:47:03,087 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "43.54ms"
+}
+2026-02-09 18:47:03,164 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-terminal.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.51ms"
+}
+2026-02-09 18:47:03,195 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/moment/moment.min.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.38ms"
+}
+2026-02-09 18:47:03,252 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/fonts/Atkinson_Hyperlegible_Next/AtkinsonHyperlegibleMono-VariableFont_wght.ttf",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.27ms"
+}
+2026-02-09 18:47:03,682 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "425.96ms"
+}
+2026-02-09 18:47:03,697 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.62ms"
+}
+2026-02-09 18:47:03,697 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.68ms"
+}
+2026-02-09 18:47:03,711 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "4.72ms"
+}
+2026-02-09 18:47:03,712 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/vendors/fontawesome6/webfonts/fa-regular-400.woff2",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.80ms"
+}
+2026-02-09 18:47:05,295 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.48ms"
+}
+2026-02-09 18:47:06,620 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "42.83ms"
+}
+2026-02-09 18:47:06,707 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.82ms"
+}
+2026-02-09 18:47:06,717 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.19ms"
+}
+2026-02-09 18:47:06,754 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.46ms"
+}
+2026-02-09 18:47:07,277 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "449.64ms"
+}
+2026-02-09 18:47:07,372 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "42.77ms"
+}
+2026-02-09 18:47:07,890 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "438.95ms"
+}
+2026-02-09 18:47:07,900 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.14ms"
+}
+2026-02-09 18:47:07,900 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.14ms"
+}
+2026-02-09 18:47:07,912 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.85ms"
+}
+2026-02-09 18:47:09,552 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.69ms"
+}
+2026-02-09 18:47:09,809 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/action/start_server",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "4.57ms"
+}
+2026-02-09 18:47:11,173 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/action/eula/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "8.52ms"
+}
+2026-02-09 18:47:11,300 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "53.33ms"
+}
+2026-02-09 18:47:11,391 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.12ms"
+}
+2026-02-09 18:47:11,828 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "435.83ms"
+}
+2026-02-09 18:47:11,841 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "12.48ms"
+}
+2026-02-09 18:47:11,843 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "12.74ms"
+}
+2026-02-09 18:47:13,022 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.91ms"
+}
+2026-02-09 18:48:00,317 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "45.45ms"
+}
+2026-02-09 18:48:00,440 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "23.95ms"
+}
+2026-02-09 18:48:00,444 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.84ms"
+}
+2026-02-09 18:48:00,476 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.58ms"
+}
+2026-02-09 18:48:00,954 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "401.94ms"
+}
+2026-02-09 18:48:01,562 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/action/stop_server",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "9.88ms"
+}
+2026-02-09 18:48:02,014 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.66ms"
+}
+2026-02-09 18:48:06,043 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "41.86ms"
+}
+2026-02-09 18:48:06,138 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "4.95ms"
+}
+2026-02-09 18:48:06,555 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "416.65ms"
+}
+2026-02-09 18:48:06,563 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "7.01ms"
+}
+2026-02-09 18:48:06,563 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "6.99ms"
+}
+2026-02-09 18:48:07,733 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.47ms"
+}
+2026-02-09 18:48:11,043 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/edit_user?id=1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "70.55ms"
+}
+2026-02-09 18:48:11,202 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fedit_user&page_query_params=%3Fid%3D1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.98ms"
+}
+2026-02-09 18:48:11,328 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/userSettings.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.38ms"
+}
+2026-02-09 18:48:12,152 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "620.48ms"
+}
+2026-02-09 18:48:12,954 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.48ms"
+}
+2026-02-09 18:48:15,565 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/edit_user_apikeys?id=1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "47.96ms"
+}
+2026-02-09 18:48:16,210 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "521.47ms"
+}
+2026-02-09 18:48:16,224 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fedit_user_apikeys&page_query_params=%3Fid%3D1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.60ms"
+}
+2026-02-09 18:48:17,251 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "2.12ms"
+}
+2026-02-09 18:48:19,535 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/edit_user?id=1&subpage=config",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "58.74ms"
+}
+2026-02-09 18:48:20,055 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "421.20ms"
+}
+2026-02-09 18:48:20,064 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fedit_user&page_query_params=%3Fid%3D1%26subpage%3Dconfig",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.38ms"
+}
+2026-02-09 18:48:21,226 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.51ms"
+}
+2026-02-09 18:48:32,349 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "PATCH",
+    "URL": "/api/v2/users/1",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "208.67ms"
+}
+2026-02-09 18:48:35,549 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "42.67ms"
+}
+2026-02-09 18:48:35,692 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/logs?colors=true",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "18.51ms"
+}
+2026-02-09 18:48:35,708 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.57ms"
+}
+2026-02-09 18:48:35,961 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.08ms"
+}
+2026-02-09 18:48:36,359 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "396.69ms"
+}
+2026-02-09 18:48:37,258 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.48ms"
+}
+2026-02-09 18:48:38,732 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/panel/server_detail?id=29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02&subpage=files",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "42.98ms"
+}
+2026-02-09 18:48:38,818 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-files.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "2.29ms"
+}
+2026-02-09 18:48:38,825 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/context-menu.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.28ms"
+}
+2026-02-09 18:48:38,828 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/css/partial/crafty-context-menu.css",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.83ms"
+}
+2026-02-09 18:48:38,834 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/files.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "1.78ms"
+}
+2026-02-09 18:48:39,335 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "450.68ms"
+}
+2026-02-09 18:48:39,339 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.50ms"
+}
+2026-02-09 18:48:39,350 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "14.23ms"
+}
+2026-02-09 18:48:39,351 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02%26subpage%3Dfiles",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "14.18ms"
+}
+2026-02-09 18:48:40,965 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/static/assets/js/shared/service-worker.js",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.61ms"
+}
+2026-02-09 18:48:53,960 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files/upload/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "3.61ms"
+}
+2026-02-09 18:48:54,155 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files/upload/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "54.36ms"
+}
+2026-02-09 18:48:56,204 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "7.96ms"
+}
+2026-02-09 18:49:06,705 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "PATCH",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files/create/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "7.91ms"
+}
+2026-02-09 18:49:36,887 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 101,
+    "Method": "GET",
+    "URL": "/ws?page=%2Fpanel%2Fserver_detail&page_query_params=%3Fid%3D29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02%26subpage%3Dfiles",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "0.39ms"
+}
+2026-02-09 18:49:43,579 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "PATCH",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files/create/",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "7.33ms"
+}
+2026-02-09 18:49:46,882 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 200,
+    "Method": "POST",
+    "URL": "/api/v2/servers/29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02/files",
+    "Remote_IP": "172.18.0.1",
+    "Elapsed_Time": "5.64ms"
+}

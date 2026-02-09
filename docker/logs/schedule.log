@@ -1,0 +1,602 @@
+2026-02-09 18:43:27,092 - [Schedules] - INFO - Scheduler started
+2026-02-09 18:43:27,093 - [Schedules] - INFO - Scheduler started
+2026-02-09 18:43:27,094 - [Schedules] - INFO - Reload from DB called. Current enabled schedules: 
+2026-02-09 18:43:29,253 - [Schedules] - INFO - Stats collection frequency set to 30 seconds
+2026-02-09 18:43:29,788 - [Schedules] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 18:43:29,788 - [Schedules] - INFO - Launching Scheduler Thread...
+2026-02-09 18:43:29,789 - [Schedules] - INFO - Launching command thread...
+2026-02-09 18:43:29,789 - [Schedules] - INFO - Launching log watcher...
+2026-02-09 18:43:29,790 - [Schedules] - INFO - Launching realtime thread...
+2026-02-09 18:43:29,790 - [Schedules] - INFO - Added job "Stats.record_stats" to job store "default"
+2026-02-09 18:43:29,790 - [Schedules] - INFO - Scheduler started
+2026-02-09 18:43:29,791 - [Schedules] - INFO - Refreshing big bucket cache on start
+2026-02-09 18:43:29,792 - [Schedules] - INFO - Checking for Crafty updates...
+2026-02-09 18:43:29,793 - [Schedules] - INFO - Added job "TasksManager.check_for_old_logs" to job store "default"
+2026-02-09 18:43:30,087 - [Schedules] - INFO - No updates found! You are on the most up to date Crafty version.
+2026-02-09 18:43:30,087 - [Schedules] - INFO - Refreshing Gravatar PFPs...
+2026-02-09 18:43:31,009 - [Schedules] - INFO - Scheduling big bucket cache refresh service every 12 hours
+2026-02-09 18:43:31,010 - [Schedules] - INFO - Added job "BigBucket.refresh_cache" to job store "default"
+2026-02-09 18:43:31,141 - [Schedules] - INFO - Added job "TasksManager.check_for_updates" to job store "default"
+2026-02-09 18:43:31,143 - [Schedules] - INFO - Added job "Controller.write_auth_tracker" to job store "default"
+2026-02-09 18:43:31,144 - [Schedules] - INFO - Added job "TOTPController.purge_pending" to job store "default"
+2026-02-09 18:43:31,144 - [Schedules] - INFO - Added job "PasskeyController.purge_expired_challenges" to job store "default"
+2026-02-09 18:43:31,144 - [Schedules] - INFO - Loaded schedules. Current enabled schedules: 
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:43:59 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 18:48:31 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: PasskeyController.purge_expired_challenges (trigger: interval[1:00:00], next run at: 2026-02-09 19:43:31 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: TasksManager.check_for_old_logs (trigger: interval[6:00:00], next run at: 2026-02-10 00:43:29 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: BigBucket.refresh_cache (trigger: interval[12:00:00], next run at: 2026-02-10 06:43:31 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: TasksManager.check_for_updates (trigger: interval[12:00:00], next run at: 2026-02-10 06:43:31 UTC)
+2026-02-09 18:43:31,145 - [Schedules] - INFO - JOB: TOTPController.purge_pending (trigger: interval[1 day, 0:00:00], next run at: 2026-02-10 18:43:31 UTC)
+2026-02-09 18:43:59,790 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:44:29 UTC)" (scheduled at 2026-02-09 18:43:59.788163+00:00)
+2026-02-09 18:44:00,300 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:44:29 UTC)" executed successfully
+2026-02-09 18:44:00,300 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:44:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:44:59 UTC)" (scheduled at 2026-02-09 18:44:29.788163+00:00)
+2026-02-09 18:44:30,298 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:44:59 UTC)" executed successfully
+2026-02-09 18:44:30,299 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:44:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:45:29 UTC)" (scheduled at 2026-02-09 18:44:59.788163+00:00)
+2026-02-09 18:45:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:45:29 UTC)" executed successfully
+2026-02-09 18:45:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:45:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:45:59 UTC)" (scheduled at 2026-02-09 18:45:29.788163+00:00)
+2026-02-09 18:45:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:45:59 UTC)" executed successfully
+2026-02-09 18:45:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:45:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:46:29 UTC)" (scheduled at 2026-02-09 18:45:59.788163+00:00)
+2026-02-09 18:46:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:46:29 UTC)" executed successfully
+2026-02-09 18:46:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:46:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:46:59 UTC)" (scheduled at 2026-02-09 18:46:29.788163+00:00)
+2026-02-09 18:46:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:46:59 UTC)" executed successfully
+2026-02-09 18:46:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:46:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:47:29 UTC)" (scheduled at 2026-02-09 18:46:59.788163+00:00)
+2026-02-09 18:47:00,254 - [Schedules] - INFO - Scheduler started
+2026-02-09 18:47:00,254 - [Schedules] - INFO - Scheduler started
+2026-02-09 18:47:00,255 - [Schedules] - INFO - Added job "ServerInstance.calc_dir_size" to job store "default"
+2026-02-09 18:47:00,255 - [Schedules] - INFO - Added job "ServerInstance.cache_players" to job store "default"
+2026-02-09 18:47:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:47:29 UTC)" executed successfully
+2026-02-09 18:47:00,291 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:47:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:10 UTC)" (scheduled at 2026-02-09 18:47:05.255808+00:00)
+2026-02-09 18:47:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:10 UTC)" executed successfully
+2026-02-09 18:47:09,920 - [Schedules] - INFO - Added job "ServerInstance.realtime_stats" to job store "default"
+2026-02-09 18:47:09,922 - [Schedules] - INFO - Added job "ServerInstance.record_server_stats" to job store "default"
+2026-02-09 18:47:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:15 UTC)" (scheduled at 2026-02-09 18:47:10.255808+00:00)
+2026-02-09 18:47:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:15 UTC)" executed successfully
+2026-02-09 18:47:11,168 - [Schedules] - INFO - Removed job stats_29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:47:11,168 - [Schedules] - INFO - Added job "ServerInstance.realtime_stats" to job store "default"
+2026-02-09 18:47:11,169 - [Schedules] - INFO - Removed job save_stats_29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:47:11,170 - [Schedules] - INFO - Added job "ServerInstance.record_server_stats" to job store "default"
+2026-02-09 18:47:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:20 UTC)" (scheduled at 2026-02-09 18:47:15.255808+00:00)
+2026-02-09 18:47:15,259 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:20 UTC)" executed successfully
+2026-02-09 18:47:16,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:16 UTC)" (scheduled at 2026-02-09 18:47:16.168340+00:00)
+2026-02-09 18:47:16,675 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:21 UTC)" executed successfully
+2026-02-09 18:47:20,258 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:25 UTC)" (scheduled at 2026-02-09 18:47:20.255808+00:00)
+2026-02-09 18:47:20,262 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:25 UTC)" executed successfully
+2026-02-09 18:47:21,175 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:26 UTC)" (scheduled at 2026-02-09 18:47:21.168340+00:00)
+2026-02-09 18:47:21,695 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:26 UTC)" executed successfully
+2026-02-09 18:47:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:30 UTC)" (scheduled at 2026-02-09 18:47:25.255808+00:00)
+2026-02-09 18:47:25,261 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:30 UTC)" executed successfully
+2026-02-09 18:47:26,172 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:31 UTC)" (scheduled at 2026-02-09 18:47:26.168340+00:00)
+2026-02-09 18:47:26,689 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:31 UTC)" executed successfully
+2026-02-09 18:47:29,790 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:47:59 UTC)" (scheduled at 2026-02-09 18:47:29.788163+00:00)
+2026-02-09 18:47:30,258 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:35 UTC)" (scheduled at 2026-02-09 18:47:30.255808+00:00)
+2026-02-09 18:47:30,262 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:35 UTC)" executed successfully
+2026-02-09 18:47:30,296 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:47:59 UTC)" executed successfully
+2026-02-09 18:47:30,296 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:47:31,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:36 UTC)" (scheduled at 2026-02-09 18:47:31.168340+00:00)
+2026-02-09 18:47:31,677 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:36 UTC)" executed successfully
+2026-02-09 18:47:35,257 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:40 UTC)" (scheduled at 2026-02-09 18:47:35.255808+00:00)
+2026-02-09 18:47:35,263 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:40 UTC)" executed successfully
+2026-02-09 18:47:36,169 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:41 UTC)" (scheduled at 2026-02-09 18:47:36.168340+00:00)
+2026-02-09 18:47:36,681 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:41 UTC)" executed successfully
+2026-02-09 18:47:40,258 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:45 UTC)" (scheduled at 2026-02-09 18:47:40.255808+00:00)
+2026-02-09 18:47:40,262 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:45 UTC)" executed successfully
+2026-02-09 18:47:41,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:46 UTC)" (scheduled at 2026-02-09 18:47:41.168340+00:00)
+2026-02-09 18:47:41,175 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:11 UTC)" (scheduled at 2026-02-09 18:47:41.170458+00:00)
+2026-02-09 18:47:41,679 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:46 UTC)" executed successfully
+2026-02-09 18:47:41,697 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:11 UTC)" executed successfully
+2026-02-09 18:47:45,258 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:50 UTC)" (scheduled at 2026-02-09 18:47:45.255808+00:00)
+2026-02-09 18:47:46,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:51 UTC)" (scheduled at 2026-02-09 18:47:46.168340+00:00)
+2026-02-09 18:47:50,256 - [Schedules] - WARNING - Execution of job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:50 UTC)" skipped: maximum number of running instances reached (1)
+2026-02-09 18:47:50,364 - [Schedules] - ERROR - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:55 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/crafty/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/crafty/app/classes/shared/server.py", line 1422, in cache_players
+    server_players = self.get_formatted_server_players()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/crafty/app/classes/shared/server.py", line 1410, in get_formatted_server_players
+    if len(server_players) == 0:
+       ^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'int' has no len()
+2026-02-09 18:47:51,168 - [Schedules] - WARNING - Execution of job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:51 UTC)" skipped: maximum number of running instances reached (1)
+2026-02-09 18:47:51,687 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:47:56 UTC)" executed successfully
+2026-02-09 18:47:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:00 UTC)" (scheduled at 2026-02-09 18:47:55.255808+00:00)
+2026-02-09 18:47:56,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:01 UTC)" (scheduled at 2026-02-09 18:47:56.168340+00:00)
+2026-02-09 18:47:56,438 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:00 UTC)" executed successfully
+2026-02-09 18:47:56,690 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:01 UTC)" executed successfully
+2026-02-09 18:47:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:29 UTC)" (scheduled at 2026-02-09 18:47:59.788163+00:00)
+2026-02-09 18:48:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:05 UTC)" (scheduled at 2026-02-09 18:48:00.255808+00:00)
+2026-02-09 18:48:00,263 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:05 UTC)" executed successfully
+2026-02-09 18:48:00,328 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:29 UTC)" executed successfully
+2026-02-09 18:48:00,329 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:48:01,168 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:06 UTC)" (scheduled at 2026-02-09 18:48:01.168340+00:00)
+2026-02-09 18:48:01,675 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:06 UTC)" executed successfully
+2026-02-09 18:48:05,257 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:10 UTC)" (scheduled at 2026-02-09 18:48:05.255808+00:00)
+2026-02-09 18:48:05,257 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:10 UTC)" executed successfully
+2026-02-09 18:48:05,949 - [Schedules] - INFO - Removed job stats_29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:48:05,949 - [Schedules] - INFO - Removed job save_stats_29e5a3ee-f37d-4722-b4e4-b42d2e2f6c02
+2026-02-09 18:48:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:15 UTC)" (scheduled at 2026-02-09 18:48:10.255808+00:00)
+2026-02-09 18:48:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:15 UTC)" executed successfully
+2026-02-09 18:48:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:20 UTC)" (scheduled at 2026-02-09 18:48:15.255808+00:00)
+2026-02-09 18:48:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:20 UTC)" executed successfully
+2026-02-09 18:48:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:25 UTC)" (scheduled at 2026-02-09 18:48:20.255808+00:00)
+2026-02-09 18:48:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:25 UTC)" executed successfully
+2026-02-09 18:48:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:30 UTC)" (scheduled at 2026-02-09 18:48:25.255808+00:00)
+2026-02-09 18:48:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:30 UTC)" executed successfully
+2026-02-09 18:48:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:59 UTC)" (scheduled at 2026-02-09 18:48:29.788163+00:00)
+2026-02-09 18:48:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:35 UTC)" (scheduled at 2026-02-09 18:48:30.255808+00:00)
+2026-02-09 18:48:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:35 UTC)" executed successfully
+2026-02-09 18:48:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:48:59 UTC)" executed successfully
+2026-02-09 18:48:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:48:31,142 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 18:53:31 UTC)" (scheduled at 2026-02-09 18:48:31.142427+00:00)
+2026-02-09 18:48:31,143 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 18:53:31 UTC)" executed successfully
+2026-02-09 18:48:31,143 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:48:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:40 UTC)" (scheduled at 2026-02-09 18:48:35.255808+00:00)
+2026-02-09 18:48:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:40 UTC)" executed successfully
+2026-02-09 18:48:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:45 UTC)" (scheduled at 2026-02-09 18:48:40.255808+00:00)
+2026-02-09 18:48:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:45 UTC)" executed successfully
+2026-02-09 18:48:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:50 UTC)" (scheduled at 2026-02-09 18:48:45.255808+00:00)
+2026-02-09 18:48:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:50 UTC)" executed successfully
+2026-02-09 18:48:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:55 UTC)" (scheduled at 2026-02-09 18:48:50.255808+00:00)
+2026-02-09 18:48:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:48:55 UTC)" executed successfully
+2026-02-09 18:48:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:00 UTC)" (scheduled at 2026-02-09 18:48:55.255808+00:00)
+2026-02-09 18:48:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:00 UTC)" executed successfully
+2026-02-09 18:48:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:49:29 UTC)" (scheduled at 2026-02-09 18:48:59.788163+00:00)
+2026-02-09 18:49:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:05 UTC)" (scheduled at 2026-02-09 18:49:00.255808+00:00)
+2026-02-09 18:49:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:05 UTC)" executed successfully
+2026-02-09 18:49:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:49:29 UTC)" executed successfully
+2026-02-09 18:49:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:49:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:10 UTC)" (scheduled at 2026-02-09 18:49:05.255808+00:00)
+2026-02-09 18:49:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:10 UTC)" executed successfully
+2026-02-09 18:49:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:15 UTC)" (scheduled at 2026-02-09 18:49:10.255808+00:00)
+2026-02-09 18:49:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:15 UTC)" executed successfully
+2026-02-09 18:49:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:20 UTC)" (scheduled at 2026-02-09 18:49:15.255808+00:00)
+2026-02-09 18:49:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:20 UTC)" executed successfully
+2026-02-09 18:49:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:25 UTC)" (scheduled at 2026-02-09 18:49:20.255808+00:00)
+2026-02-09 18:49:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:25 UTC)" executed successfully
+2026-02-09 18:49:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:30 UTC)" (scheduled at 2026-02-09 18:49:25.255808+00:00)
+2026-02-09 18:49:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:30 UTC)" executed successfully
+2026-02-09 18:49:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:49:59 UTC)" (scheduled at 2026-02-09 18:49:29.788163+00:00)
+2026-02-09 18:49:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:35 UTC)" (scheduled at 2026-02-09 18:49:30.255808+00:00)
+2026-02-09 18:49:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:35 UTC)" executed successfully
+2026-02-09 18:49:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:49:59 UTC)" executed successfully
+2026-02-09 18:49:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:49:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:40 UTC)" (scheduled at 2026-02-09 18:49:35.255808+00:00)
+2026-02-09 18:49:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:40 UTC)" executed successfully
+2026-02-09 18:49:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:45 UTC)" (scheduled at 2026-02-09 18:49:40.255808+00:00)
+2026-02-09 18:49:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:45 UTC)" executed successfully
+2026-02-09 18:49:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:50 UTC)" (scheduled at 2026-02-09 18:49:45.255808+00:00)
+2026-02-09 18:49:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:50 UTC)" executed successfully
+2026-02-09 18:49:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:55 UTC)" (scheduled at 2026-02-09 18:49:50.255808+00:00)
+2026-02-09 18:49:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:49:55 UTC)" executed successfully
+2026-02-09 18:49:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:00 UTC)" (scheduled at 2026-02-09 18:49:55.255808+00:00)
+2026-02-09 18:49:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:00 UTC)" executed successfully
+2026-02-09 18:49:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:50:29 UTC)" (scheduled at 2026-02-09 18:49:59.788163+00:00)
+2026-02-09 18:50:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:05 UTC)" (scheduled at 2026-02-09 18:50:00.255808+00:00)
+2026-02-09 18:50:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:05 UTC)" executed successfully
+2026-02-09 18:50:00,294 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:50:29 UTC)" executed successfully
+2026-02-09 18:50:00,294 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:50:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:10 UTC)" (scheduled at 2026-02-09 18:50:05.255808+00:00)
+2026-02-09 18:50:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:10 UTC)" executed successfully
+2026-02-09 18:50:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:15 UTC)" (scheduled at 2026-02-09 18:50:10.255808+00:00)
+2026-02-09 18:50:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:15 UTC)" executed successfully
+2026-02-09 18:50:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:20 UTC)" (scheduled at 2026-02-09 18:50:15.255808+00:00)
+2026-02-09 18:50:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:20 UTC)" executed successfully
+2026-02-09 18:50:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:25 UTC)" (scheduled at 2026-02-09 18:50:20.255808+00:00)
+2026-02-09 18:50:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:25 UTC)" executed successfully
+2026-02-09 18:50:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:30 UTC)" (scheduled at 2026-02-09 18:50:25.255808+00:00)
+2026-02-09 18:50:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:30 UTC)" executed successfully
+2026-02-09 18:50:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:50:59 UTC)" (scheduled at 2026-02-09 18:50:29.788163+00:00)
+2026-02-09 18:50:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:35 UTC)" (scheduled at 2026-02-09 18:50:30.255808+00:00)
+2026-02-09 18:50:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:35 UTC)" executed successfully
+2026-02-09 18:50:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:50:59 UTC)" executed successfully
+2026-02-09 18:50:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:50:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:40 UTC)" (scheduled at 2026-02-09 18:50:35.255808+00:00)
+2026-02-09 18:50:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:40 UTC)" executed successfully
+2026-02-09 18:50:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:45 UTC)" (scheduled at 2026-02-09 18:50:40.255808+00:00)
+2026-02-09 18:50:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:45 UTC)" executed successfully
+2026-02-09 18:50:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:50 UTC)" (scheduled at 2026-02-09 18:50:45.255808+00:00)
+2026-02-09 18:50:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:50 UTC)" executed successfully
+2026-02-09 18:50:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:55 UTC)" (scheduled at 2026-02-09 18:50:50.255808+00:00)
+2026-02-09 18:50:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:50:55 UTC)" executed successfully
+2026-02-09 18:50:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:00 UTC)" (scheduled at 2026-02-09 18:50:55.255808+00:00)
+2026-02-09 18:50:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:00 UTC)" executed successfully
+2026-02-09 18:50:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:51:29 UTC)" (scheduled at 2026-02-09 18:50:59.788163+00:00)
+2026-02-09 18:51:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:05 UTC)" (scheduled at 2026-02-09 18:51:00.255808+00:00)
+2026-02-09 18:51:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:05 UTC)" executed successfully
+2026-02-09 18:51:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:51:29 UTC)" executed successfully
+2026-02-09 18:51:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:51:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:10 UTC)" (scheduled at 2026-02-09 18:51:05.255808+00:00)
+2026-02-09 18:51:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:10 UTC)" executed successfully
+2026-02-09 18:51:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:15 UTC)" (scheduled at 2026-02-09 18:51:10.255808+00:00)
+2026-02-09 18:51:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:15 UTC)" executed successfully
+2026-02-09 18:51:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:20 UTC)" (scheduled at 2026-02-09 18:51:15.255808+00:00)
+2026-02-09 18:51:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:20 UTC)" executed successfully
+2026-02-09 18:51:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:25 UTC)" (scheduled at 2026-02-09 18:51:20.255808+00:00)
+2026-02-09 18:51:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:25 UTC)" executed successfully
+2026-02-09 18:51:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:30 UTC)" (scheduled at 2026-02-09 18:51:25.255808+00:00)
+2026-02-09 18:51:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:30 UTC)" executed successfully
+2026-02-09 18:51:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:51:59 UTC)" (scheduled at 2026-02-09 18:51:29.788163+00:00)
+2026-02-09 18:51:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:35 UTC)" (scheduled at 2026-02-09 18:51:30.255808+00:00)
+2026-02-09 18:51:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:35 UTC)" executed successfully
+2026-02-09 18:51:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:51:59 UTC)" executed successfully
+2026-02-09 18:51:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:51:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:40 UTC)" (scheduled at 2026-02-09 18:51:35.255808+00:00)
+2026-02-09 18:51:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:40 UTC)" executed successfully
+2026-02-09 18:51:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:45 UTC)" (scheduled at 2026-02-09 18:51:40.255808+00:00)
+2026-02-09 18:51:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:45 UTC)" executed successfully
+2026-02-09 18:51:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:50 UTC)" (scheduled at 2026-02-09 18:51:45.255808+00:00)
+2026-02-09 18:51:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:50 UTC)" executed successfully
+2026-02-09 18:51:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:55 UTC)" (scheduled at 2026-02-09 18:51:50.255808+00:00)
+2026-02-09 18:51:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:51:55 UTC)" executed successfully
+2026-02-09 18:51:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:00 UTC)" (scheduled at 2026-02-09 18:51:55.255808+00:00)
+2026-02-09 18:51:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:00 UTC)" executed successfully
+2026-02-09 18:51:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:52:29 UTC)" (scheduled at 2026-02-09 18:51:59.788163+00:00)
+2026-02-09 18:52:00,256 - [Schedules] - INFO - Running job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 18:57:00 UTC)" (scheduled at 2026-02-09 18:52:00.255573+00:00)
+2026-02-09 18:52:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:05 UTC)" (scheduled at 2026-02-09 18:52:00.255808+00:00)
+2026-02-09 18:52:00,257 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:05 UTC)" executed successfully
+2026-02-09 18:52:00,260 - [Schedules] - INFO - Job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 18:57:00 UTC)" executed successfully
+2026-02-09 18:52:00,294 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:52:29 UTC)" executed successfully
+2026-02-09 18:52:00,294 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:52:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:10 UTC)" (scheduled at 2026-02-09 18:52:05.255808+00:00)
+2026-02-09 18:52:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:10 UTC)" executed successfully
+2026-02-09 18:52:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:15 UTC)" (scheduled at 2026-02-09 18:52:10.255808+00:00)
+2026-02-09 18:52:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:15 UTC)" executed successfully
+2026-02-09 18:52:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:20 UTC)" (scheduled at 2026-02-09 18:52:15.255808+00:00)
+2026-02-09 18:52:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:20 UTC)" executed successfully
+2026-02-09 18:52:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:25 UTC)" (scheduled at 2026-02-09 18:52:20.255808+00:00)
+2026-02-09 18:52:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:25 UTC)" executed successfully
+2026-02-09 18:52:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:30 UTC)" (scheduled at 2026-02-09 18:52:25.255808+00:00)
+2026-02-09 18:52:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:30 UTC)" executed successfully
+2026-02-09 18:52:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:52:59 UTC)" (scheduled at 2026-02-09 18:52:29.788163+00:00)
+2026-02-09 18:52:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:35 UTC)" (scheduled at 2026-02-09 18:52:30.255808+00:00)
+2026-02-09 18:52:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:35 UTC)" executed successfully
+2026-02-09 18:52:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:52:59 UTC)" executed successfully
+2026-02-09 18:52:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:52:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:40 UTC)" (scheduled at 2026-02-09 18:52:35.255808+00:00)
+2026-02-09 18:52:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:40 UTC)" executed successfully
+2026-02-09 18:52:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:45 UTC)" (scheduled at 2026-02-09 18:52:40.255808+00:00)
+2026-02-09 18:52:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:45 UTC)" executed successfully
+2026-02-09 18:52:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:50 UTC)" (scheduled at 2026-02-09 18:52:45.255808+00:00)
+2026-02-09 18:52:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:50 UTC)" executed successfully
+2026-02-09 18:52:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:55 UTC)" (scheduled at 2026-02-09 18:52:50.255808+00:00)
+2026-02-09 18:52:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:52:55 UTC)" executed successfully
+2026-02-09 18:52:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:00 UTC)" (scheduled at 2026-02-09 18:52:55.255808+00:00)
+2026-02-09 18:52:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:00 UTC)" executed successfully
+2026-02-09 18:52:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:53:29 UTC)" (scheduled at 2026-02-09 18:52:59.788163+00:00)
+2026-02-09 18:53:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:05 UTC)" (scheduled at 2026-02-09 18:53:00.255808+00:00)
+2026-02-09 18:53:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:05 UTC)" executed successfully
+2026-02-09 18:53:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:53:29 UTC)" executed successfully
+2026-02-09 18:53:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:53:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:10 UTC)" (scheduled at 2026-02-09 18:53:05.255808+00:00)
+2026-02-09 18:53:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:10 UTC)" executed successfully
+2026-02-09 18:53:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:15 UTC)" (scheduled at 2026-02-09 18:53:10.255808+00:00)
+2026-02-09 18:53:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:15 UTC)" executed successfully
+2026-02-09 18:53:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:20 UTC)" (scheduled at 2026-02-09 18:53:15.255808+00:00)
+2026-02-09 18:53:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:20 UTC)" executed successfully
+2026-02-09 18:53:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:25 UTC)" (scheduled at 2026-02-09 18:53:20.255808+00:00)
+2026-02-09 18:53:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:25 UTC)" executed successfully
+2026-02-09 18:53:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:30 UTC)" (scheduled at 2026-02-09 18:53:25.255808+00:00)
+2026-02-09 18:53:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:30 UTC)" executed successfully
+2026-02-09 18:53:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:53:59 UTC)" (scheduled at 2026-02-09 18:53:29.788163+00:00)
+2026-02-09 18:53:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:35 UTC)" (scheduled at 2026-02-09 18:53:30.255808+00:00)
+2026-02-09 18:53:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:35 UTC)" executed successfully
+2026-02-09 18:53:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:53:59 UTC)" executed successfully
+2026-02-09 18:53:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:53:31,142 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 18:58:31 UTC)" (scheduled at 2026-02-09 18:53:31.142427+00:00)
+2026-02-09 18:53:31,143 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 18:58:31 UTC)" executed successfully
+2026-02-09 18:53:31,143 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:53:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:40 UTC)" (scheduled at 2026-02-09 18:53:35.255808+00:00)
+2026-02-09 18:53:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:40 UTC)" executed successfully
+2026-02-09 18:53:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:45 UTC)" (scheduled at 2026-02-09 18:53:40.255808+00:00)
+2026-02-09 18:53:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:45 UTC)" executed successfully
+2026-02-09 18:53:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:50 UTC)" (scheduled at 2026-02-09 18:53:45.255808+00:00)
+2026-02-09 18:53:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:50 UTC)" executed successfully
+2026-02-09 18:53:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:55 UTC)" (scheduled at 2026-02-09 18:53:50.255808+00:00)
+2026-02-09 18:53:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:53:55 UTC)" executed successfully
+2026-02-09 18:53:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:00 UTC)" (scheduled at 2026-02-09 18:53:55.255808+00:00)
+2026-02-09 18:53:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:00 UTC)" executed successfully
+2026-02-09 18:53:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:54:29 UTC)" (scheduled at 2026-02-09 18:53:59.788163+00:00)
+2026-02-09 18:54:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:05 UTC)" (scheduled at 2026-02-09 18:54:00.255808+00:00)
+2026-02-09 18:54:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:05 UTC)" executed successfully
+2026-02-09 18:54:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:54:29 UTC)" executed successfully
+2026-02-09 18:54:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:54:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:10 UTC)" (scheduled at 2026-02-09 18:54:05.255808+00:00)
+2026-02-09 18:54:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:10 UTC)" executed successfully
+2026-02-09 18:54:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:15 UTC)" (scheduled at 2026-02-09 18:54:10.255808+00:00)
+2026-02-09 18:54:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:15 UTC)" executed successfully
+2026-02-09 18:54:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:20 UTC)" (scheduled at 2026-02-09 18:54:15.255808+00:00)
+2026-02-09 18:54:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:20 UTC)" executed successfully
+2026-02-09 18:54:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:25 UTC)" (scheduled at 2026-02-09 18:54:20.255808+00:00)
+2026-02-09 18:54:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:25 UTC)" executed successfully
+2026-02-09 18:54:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:30 UTC)" (scheduled at 2026-02-09 18:54:25.255808+00:00)
+2026-02-09 18:54:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:30 UTC)" executed successfully
+2026-02-09 18:54:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:54:59 UTC)" (scheduled at 2026-02-09 18:54:29.788163+00:00)
+2026-02-09 18:54:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:35 UTC)" (scheduled at 2026-02-09 18:54:30.255808+00:00)
+2026-02-09 18:54:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:35 UTC)" executed successfully
+2026-02-09 18:54:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:54:59 UTC)" executed successfully
+2026-02-09 18:54:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:54:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:40 UTC)" (scheduled at 2026-02-09 18:54:35.255808+00:00)
+2026-02-09 18:54:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:40 UTC)" executed successfully
+2026-02-09 18:54:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:45 UTC)" (scheduled at 2026-02-09 18:54:40.255808+00:00)
+2026-02-09 18:54:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:45 UTC)" executed successfully
+2026-02-09 18:54:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:50 UTC)" (scheduled at 2026-02-09 18:54:45.255808+00:00)
+2026-02-09 18:54:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:50 UTC)" executed successfully
+2026-02-09 18:54:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:55 UTC)" (scheduled at 2026-02-09 18:54:50.255808+00:00)
+2026-02-09 18:54:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:54:55 UTC)" executed successfully
+2026-02-09 18:54:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:00 UTC)" (scheduled at 2026-02-09 18:54:55.255808+00:00)
+2026-02-09 18:54:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:00 UTC)" executed successfully
+2026-02-09 18:54:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:55:29 UTC)" (scheduled at 2026-02-09 18:54:59.788163+00:00)
+2026-02-09 18:55:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:05 UTC)" (scheduled at 2026-02-09 18:55:00.255808+00:00)
+2026-02-09 18:55:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:05 UTC)" executed successfully
+2026-02-09 18:55:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:55:29 UTC)" executed successfully
+2026-02-09 18:55:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:55:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:10 UTC)" (scheduled at 2026-02-09 18:55:05.255808+00:00)
+2026-02-09 18:55:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:10 UTC)" executed successfully
+2026-02-09 18:55:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:15 UTC)" (scheduled at 2026-02-09 18:55:10.255808+00:00)
+2026-02-09 18:55:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:15 UTC)" executed successfully
+2026-02-09 18:55:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:20 UTC)" (scheduled at 2026-02-09 18:55:15.255808+00:00)
+2026-02-09 18:55:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:20 UTC)" executed successfully
+2026-02-09 18:55:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:25 UTC)" (scheduled at 2026-02-09 18:55:20.255808+00:00)
+2026-02-09 18:55:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:25 UTC)" executed successfully
+2026-02-09 18:55:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:30 UTC)" (scheduled at 2026-02-09 18:55:25.255808+00:00)
+2026-02-09 18:55:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:30 UTC)" executed successfully
+2026-02-09 18:55:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:55:59 UTC)" (scheduled at 2026-02-09 18:55:29.788163+00:00)
+2026-02-09 18:55:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:35 UTC)" (scheduled at 2026-02-09 18:55:30.255808+00:00)
+2026-02-09 18:55:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:35 UTC)" executed successfully
+2026-02-09 18:55:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:55:59 UTC)" executed successfully
+2026-02-09 18:55:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:55:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:40 UTC)" (scheduled at 2026-02-09 18:55:35.255808+00:00)
+2026-02-09 18:55:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:40 UTC)" executed successfully
+2026-02-09 18:55:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:45 UTC)" (scheduled at 2026-02-09 18:55:40.255808+00:00)
+2026-02-09 18:55:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:45 UTC)" executed successfully
+2026-02-09 18:55:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:50 UTC)" (scheduled at 2026-02-09 18:55:45.255808+00:00)
+2026-02-09 18:55:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:50 UTC)" executed successfully
+2026-02-09 18:55:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:55 UTC)" (scheduled at 2026-02-09 18:55:50.255808+00:00)
+2026-02-09 18:55:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:55:55 UTC)" executed successfully
+2026-02-09 18:55:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:00 UTC)" (scheduled at 2026-02-09 18:55:55.255808+00:00)
+2026-02-09 18:55:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:00 UTC)" executed successfully
+2026-02-09 18:55:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:56:29 UTC)" (scheduled at 2026-02-09 18:55:59.788163+00:00)
+2026-02-09 18:56:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:05 UTC)" (scheduled at 2026-02-09 18:56:00.255808+00:00)
+2026-02-09 18:56:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:05 UTC)" executed successfully
+2026-02-09 18:56:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:56:29 UTC)" executed successfully
+2026-02-09 18:56:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:56:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:10 UTC)" (scheduled at 2026-02-09 18:56:05.255808+00:00)
+2026-02-09 18:56:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:10 UTC)" executed successfully
+2026-02-09 18:56:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:15 UTC)" (scheduled at 2026-02-09 18:56:10.255808+00:00)
+2026-02-09 18:56:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:15 UTC)" executed successfully
+2026-02-09 18:56:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:20 UTC)" (scheduled at 2026-02-09 18:56:15.255808+00:00)
+2026-02-09 18:56:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:20 UTC)" executed successfully
+2026-02-09 18:56:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:25 UTC)" (scheduled at 2026-02-09 18:56:20.255808+00:00)
+2026-02-09 18:56:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:25 UTC)" executed successfully
+2026-02-09 18:56:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:30 UTC)" (scheduled at 2026-02-09 18:56:25.255808+00:00)
+2026-02-09 18:56:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:30 UTC)" executed successfully
+2026-02-09 18:56:29,789 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:56:59 UTC)" (scheduled at 2026-02-09 18:56:29.788163+00:00)
+2026-02-09 18:56:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:35 UTC)" (scheduled at 2026-02-09 18:56:30.255808+00:00)
+2026-02-09 18:56:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:35 UTC)" executed successfully
+2026-02-09 18:56:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:56:59 UTC)" executed successfully
+2026-02-09 18:56:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:56:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:40 UTC)" (scheduled at 2026-02-09 18:56:35.255808+00:00)
+2026-02-09 18:56:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:40 UTC)" executed successfully
+2026-02-09 18:56:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:45 UTC)" (scheduled at 2026-02-09 18:56:40.255808+00:00)
+2026-02-09 18:56:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:45 UTC)" executed successfully
+2026-02-09 18:56:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:50 UTC)" (scheduled at 2026-02-09 18:56:45.255808+00:00)
+2026-02-09 18:56:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:50 UTC)" executed successfully
+2026-02-09 18:56:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:55 UTC)" (scheduled at 2026-02-09 18:56:50.255808+00:00)
+2026-02-09 18:56:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:56:55 UTC)" executed successfully
+2026-02-09 18:56:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:00 UTC)" (scheduled at 2026-02-09 18:56:55.255808+00:00)
+2026-02-09 18:56:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:00 UTC)" executed successfully
+2026-02-09 18:56:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:57:29 UTC)" (scheduled at 2026-02-09 18:56:59.788163+00:00)
+2026-02-09 18:57:00,256 - [Schedules] - INFO - Running job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 19:02:00 UTC)" (scheduled at 2026-02-09 18:57:00.255573+00:00)
+2026-02-09 18:57:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:05 UTC)" (scheduled at 2026-02-09 18:57:00.255808+00:00)
+2026-02-09 18:57:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:05 UTC)" executed successfully
+2026-02-09 18:57:00,259 - [Schedules] - INFO - Job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 19:02:00 UTC)" executed successfully
+2026-02-09 18:57:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:57:29 UTC)" executed successfully
+2026-02-09 18:57:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:57:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:10 UTC)" (scheduled at 2026-02-09 18:57:05.255808+00:00)
+2026-02-09 18:57:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:10 UTC)" executed successfully
+2026-02-09 18:57:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:15 UTC)" (scheduled at 2026-02-09 18:57:10.255808+00:00)
+2026-02-09 18:57:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:15 UTC)" executed successfully
+2026-02-09 18:57:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:20 UTC)" (scheduled at 2026-02-09 18:57:15.255808+00:00)
+2026-02-09 18:57:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:20 UTC)" executed successfully
+2026-02-09 18:57:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:25 UTC)" (scheduled at 2026-02-09 18:57:20.255808+00:00)
+2026-02-09 18:57:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:25 UTC)" executed successfully
+2026-02-09 18:57:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:30 UTC)" (scheduled at 2026-02-09 18:57:25.255808+00:00)
+2026-02-09 18:57:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:30 UTC)" executed successfully
+2026-02-09 18:57:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:57:59 UTC)" (scheduled at 2026-02-09 18:57:29.788163+00:00)
+2026-02-09 18:57:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:35 UTC)" (scheduled at 2026-02-09 18:57:30.255808+00:00)
+2026-02-09 18:57:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:35 UTC)" executed successfully
+2026-02-09 18:57:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:57:59 UTC)" executed successfully
+2026-02-09 18:57:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:57:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:40 UTC)" (scheduled at 2026-02-09 18:57:35.255808+00:00)
+2026-02-09 18:57:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:40 UTC)" executed successfully
+2026-02-09 18:57:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:45 UTC)" (scheduled at 2026-02-09 18:57:40.255808+00:00)
+2026-02-09 18:57:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:45 UTC)" executed successfully
+2026-02-09 18:57:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:50 UTC)" (scheduled at 2026-02-09 18:57:45.255808+00:00)
+2026-02-09 18:57:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:50 UTC)" executed successfully
+2026-02-09 18:57:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:55 UTC)" (scheduled at 2026-02-09 18:57:50.255808+00:00)
+2026-02-09 18:57:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:57:55 UTC)" executed successfully
+2026-02-09 18:57:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:00 UTC)" (scheduled at 2026-02-09 18:57:55.255808+00:00)
+2026-02-09 18:57:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:00 UTC)" executed successfully
+2026-02-09 18:57:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:58:29 UTC)" (scheduled at 2026-02-09 18:57:59.788163+00:00)
+2026-02-09 18:58:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:05 UTC)" (scheduled at 2026-02-09 18:58:00.255808+00:00)
+2026-02-09 18:58:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:05 UTC)" executed successfully
+2026-02-09 18:58:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:58:29 UTC)" executed successfully
+2026-02-09 18:58:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:58:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:10 UTC)" (scheduled at 2026-02-09 18:58:05.255808+00:00)
+2026-02-09 18:58:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:10 UTC)" executed successfully
+2026-02-09 18:58:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:15 UTC)" (scheduled at 2026-02-09 18:58:10.255808+00:00)
+2026-02-09 18:58:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:15 UTC)" executed successfully
+2026-02-09 18:58:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:20 UTC)" (scheduled at 2026-02-09 18:58:15.255808+00:00)
+2026-02-09 18:58:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:20 UTC)" executed successfully
+2026-02-09 18:58:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:25 UTC)" (scheduled at 2026-02-09 18:58:20.255808+00:00)
+2026-02-09 18:58:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:25 UTC)" executed successfully
+2026-02-09 18:58:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:30 UTC)" (scheduled at 2026-02-09 18:58:25.255808+00:00)
+2026-02-09 18:58:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:30 UTC)" executed successfully
+2026-02-09 18:58:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:58:59 UTC)" (scheduled at 2026-02-09 18:58:29.788163+00:00)
+2026-02-09 18:58:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:35 UTC)" (scheduled at 2026-02-09 18:58:30.255808+00:00)
+2026-02-09 18:58:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:35 UTC)" executed successfully
+2026-02-09 18:58:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:58:59 UTC)" executed successfully
+2026-02-09 18:58:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:58:31,142 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 19:03:31 UTC)" (scheduled at 2026-02-09 18:58:31.142427+00:00)
+2026-02-09 18:58:31,143 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2026-02-09 19:03:31 UTC)" executed successfully
+2026-02-09 18:58:31,143 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:58:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:40 UTC)" (scheduled at 2026-02-09 18:58:35.255808+00:00)
+2026-02-09 18:58:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:40 UTC)" executed successfully
+2026-02-09 18:58:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:45 UTC)" (scheduled at 2026-02-09 18:58:40.255808+00:00)
+2026-02-09 18:58:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:45 UTC)" executed successfully
+2026-02-09 18:58:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:50 UTC)" (scheduled at 2026-02-09 18:58:45.255808+00:00)
+2026-02-09 18:58:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:50 UTC)" executed successfully
+2026-02-09 18:58:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:55 UTC)" (scheduled at 2026-02-09 18:58:50.255808+00:00)
+2026-02-09 18:58:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:58:55 UTC)" executed successfully
+2026-02-09 18:58:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:00 UTC)" (scheduled at 2026-02-09 18:58:55.255808+00:00)
+2026-02-09 18:58:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:00 UTC)" executed successfully
+2026-02-09 18:58:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:59:29 UTC)" (scheduled at 2026-02-09 18:58:59.788163+00:00)
+2026-02-09 18:59:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:05 UTC)" (scheduled at 2026-02-09 18:59:00.255808+00:00)
+2026-02-09 18:59:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:05 UTC)" executed successfully
+2026-02-09 18:59:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:59:29 UTC)" executed successfully
+2026-02-09 18:59:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:59:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:10 UTC)" (scheduled at 2026-02-09 18:59:05.255808+00:00)
+2026-02-09 18:59:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:10 UTC)" executed successfully
+2026-02-09 18:59:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:15 UTC)" (scheduled at 2026-02-09 18:59:10.255808+00:00)
+2026-02-09 18:59:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:15 UTC)" executed successfully
+2026-02-09 18:59:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:20 UTC)" (scheduled at 2026-02-09 18:59:15.255808+00:00)
+2026-02-09 18:59:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:20 UTC)" executed successfully
+2026-02-09 18:59:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:25 UTC)" (scheduled at 2026-02-09 18:59:20.255808+00:00)
+2026-02-09 18:59:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:25 UTC)" executed successfully
+2026-02-09 18:59:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:30 UTC)" (scheduled at 2026-02-09 18:59:25.255808+00:00)
+2026-02-09 18:59:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:30 UTC)" executed successfully
+2026-02-09 18:59:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:59:59 UTC)" (scheduled at 2026-02-09 18:59:29.788163+00:00)
+2026-02-09 18:59:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:35 UTC)" (scheduled at 2026-02-09 18:59:30.255808+00:00)
+2026-02-09 18:59:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:35 UTC)" executed successfully
+2026-02-09 18:59:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 18:59:59 UTC)" executed successfully
+2026-02-09 18:59:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 18:59:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:40 UTC)" (scheduled at 2026-02-09 18:59:35.255808+00:00)
+2026-02-09 18:59:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:40 UTC)" executed successfully
+2026-02-09 18:59:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:45 UTC)" (scheduled at 2026-02-09 18:59:40.255808+00:00)
+2026-02-09 18:59:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:45 UTC)" executed successfully
+2026-02-09 18:59:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:50 UTC)" (scheduled at 2026-02-09 18:59:45.255808+00:00)
+2026-02-09 18:59:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:50 UTC)" executed successfully
+2026-02-09 18:59:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:55 UTC)" (scheduled at 2026-02-09 18:59:50.255808+00:00)
+2026-02-09 18:59:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 18:59:55 UTC)" executed successfully
+2026-02-09 18:59:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:00 UTC)" (scheduled at 2026-02-09 18:59:55.255808+00:00)
+2026-02-09 18:59:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:00 UTC)" executed successfully
+2026-02-09 18:59:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:00:29 UTC)" (scheduled at 2026-02-09 18:59:59.788163+00:00)
+2026-02-09 19:00:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:05 UTC)" (scheduled at 2026-02-09 19:00:00.255808+00:00)
+2026-02-09 19:00:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:05 UTC)" executed successfully
+2026-02-09 19:00:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:00:29 UTC)" executed successfully
+2026-02-09 19:00:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:00:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:10 UTC)" (scheduled at 2026-02-09 19:00:05.255808+00:00)
+2026-02-09 19:00:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:10 UTC)" executed successfully
+2026-02-09 19:00:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:15 UTC)" (scheduled at 2026-02-09 19:00:10.255808+00:00)
+2026-02-09 19:00:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:15 UTC)" executed successfully
+2026-02-09 19:00:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:20 UTC)" (scheduled at 2026-02-09 19:00:15.255808+00:00)
+2026-02-09 19:00:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:20 UTC)" executed successfully
+2026-02-09 19:00:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:25 UTC)" (scheduled at 2026-02-09 19:00:20.255808+00:00)
+2026-02-09 19:00:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:25 UTC)" executed successfully
+2026-02-09 19:00:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:30 UTC)" (scheduled at 2026-02-09 19:00:25.255808+00:00)
+2026-02-09 19:00:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:30 UTC)" executed successfully
+2026-02-09 19:00:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:00:59 UTC)" (scheduled at 2026-02-09 19:00:29.788163+00:00)
+2026-02-09 19:00:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:35 UTC)" (scheduled at 2026-02-09 19:00:30.255808+00:00)
+2026-02-09 19:00:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:35 UTC)" executed successfully
+2026-02-09 19:00:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:00:59 UTC)" executed successfully
+2026-02-09 19:00:30,293 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:00:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:40 UTC)" (scheduled at 2026-02-09 19:00:35.255808+00:00)
+2026-02-09 19:00:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:40 UTC)" executed successfully
+2026-02-09 19:00:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:45 UTC)" (scheduled at 2026-02-09 19:00:40.255808+00:00)
+2026-02-09 19:00:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:45 UTC)" executed successfully
+2026-02-09 19:00:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:50 UTC)" (scheduled at 2026-02-09 19:00:45.255808+00:00)
+2026-02-09 19:00:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:50 UTC)" executed successfully
+2026-02-09 19:00:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:55 UTC)" (scheduled at 2026-02-09 19:00:50.255808+00:00)
+2026-02-09 19:00:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:00:55 UTC)" executed successfully
+2026-02-09 19:00:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:00 UTC)" (scheduled at 2026-02-09 19:00:55.255808+00:00)
+2026-02-09 19:00:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:00 UTC)" executed successfully
+2026-02-09 19:00:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:01:29 UTC)" (scheduled at 2026-02-09 19:00:59.788163+00:00)
+2026-02-09 19:01:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:05 UTC)" (scheduled at 2026-02-09 19:01:00.255808+00:00)
+2026-02-09 19:01:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:05 UTC)" executed successfully
+2026-02-09 19:01:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:01:29 UTC)" executed successfully
+2026-02-09 19:01:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:01:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:10 UTC)" (scheduled at 2026-02-09 19:01:05.255808+00:00)
+2026-02-09 19:01:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:10 UTC)" executed successfully
+2026-02-09 19:01:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:15 UTC)" (scheduled at 2026-02-09 19:01:10.255808+00:00)
+2026-02-09 19:01:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:15 UTC)" executed successfully
+2026-02-09 19:01:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:20 UTC)" (scheduled at 2026-02-09 19:01:15.255808+00:00)
+2026-02-09 19:01:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:20 UTC)" executed successfully
+2026-02-09 19:01:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:25 UTC)" (scheduled at 2026-02-09 19:01:20.255808+00:00)
+2026-02-09 19:01:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:25 UTC)" executed successfully
+2026-02-09 19:01:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:30 UTC)" (scheduled at 2026-02-09 19:01:25.255808+00:00)
+2026-02-09 19:01:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:30 UTC)" executed successfully
+2026-02-09 19:01:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:01:59 UTC)" (scheduled at 2026-02-09 19:01:29.788163+00:00)
+2026-02-09 19:01:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:35 UTC)" (scheduled at 2026-02-09 19:01:30.255808+00:00)
+2026-02-09 19:01:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:35 UTC)" executed successfully
+2026-02-09 19:01:30,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:01:59 UTC)" executed successfully
+2026-02-09 19:01:30,291 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:01:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:40 UTC)" (scheduled at 2026-02-09 19:01:35.255808+00:00)
+2026-02-09 19:01:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:40 UTC)" executed successfully
+2026-02-09 19:01:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:45 UTC)" (scheduled at 2026-02-09 19:01:40.255808+00:00)
+2026-02-09 19:01:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:45 UTC)" executed successfully
+2026-02-09 19:01:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:50 UTC)" (scheduled at 2026-02-09 19:01:45.255808+00:00)
+2026-02-09 19:01:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:50 UTC)" executed successfully
+2026-02-09 19:01:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:55 UTC)" (scheduled at 2026-02-09 19:01:50.255808+00:00)
+2026-02-09 19:01:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:01:55 UTC)" executed successfully
+2026-02-09 19:01:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:00 UTC)" (scheduled at 2026-02-09 19:01:55.255808+00:00)
+2026-02-09 19:01:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:00 UTC)" executed successfully
+2026-02-09 19:01:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:02:29 UTC)" (scheduled at 2026-02-09 19:01:59.788163+00:00)
+2026-02-09 19:02:00,256 - [Schedules] - INFO - Running job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 19:07:00 UTC)" (scheduled at 2026-02-09 19:02:00.255573+00:00)
+2026-02-09 19:02:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:05 UTC)" (scheduled at 2026-02-09 19:02:00.255808+00:00)
+2026-02-09 19:02:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:05 UTC)" executed successfully
+2026-02-09 19:02:00,260 - [Schedules] - INFO - Job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2026-02-09 19:07:00 UTC)" executed successfully
+2026-02-09 19:02:00,291 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:02:29 UTC)" executed successfully
+2026-02-09 19:02:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:02:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:10 UTC)" (scheduled at 2026-02-09 19:02:05.255808+00:00)
+2026-02-09 19:02:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:10 UTC)" executed successfully
+2026-02-09 19:02:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:15 UTC)" (scheduled at 2026-02-09 19:02:10.255808+00:00)
+2026-02-09 19:02:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:15 UTC)" executed successfully
+2026-02-09 19:02:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:20 UTC)" (scheduled at 2026-02-09 19:02:15.255808+00:00)
+2026-02-09 19:02:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:20 UTC)" executed successfully
+2026-02-09 19:02:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:25 UTC)" (scheduled at 2026-02-09 19:02:20.255808+00:00)
+2026-02-09 19:02:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:25 UTC)" executed successfully
+2026-02-09 19:02:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:30 UTC)" (scheduled at 2026-02-09 19:02:25.255808+00:00)
+2026-02-09 19:02:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:30 UTC)" executed successfully
+2026-02-09 19:02:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:02:59 UTC)" (scheduled at 2026-02-09 19:02:29.788163+00:00)
+2026-02-09 19:02:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:35 UTC)" (scheduled at 2026-02-09 19:02:30.255808+00:00)
+2026-02-09 19:02:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:35 UTC)" executed successfully
+2026-02-09 19:02:30,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:02:59 UTC)" executed successfully
+2026-02-09 19:02:30,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:02:35,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:40 UTC)" (scheduled at 2026-02-09 19:02:35.255808+00:00)
+2026-02-09 19:02:35,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:40 UTC)" executed successfully
+2026-02-09 19:02:40,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:45 UTC)" (scheduled at 2026-02-09 19:02:40.255808+00:00)
+2026-02-09 19:02:40,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:45 UTC)" executed successfully
+2026-02-09 19:02:45,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:50 UTC)" (scheduled at 2026-02-09 19:02:45.255808+00:00)
+2026-02-09 19:02:45,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:50 UTC)" executed successfully
+2026-02-09 19:02:50,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:55 UTC)" (scheduled at 2026-02-09 19:02:50.255808+00:00)
+2026-02-09 19:02:50,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:02:55 UTC)" executed successfully
+2026-02-09 19:02:55,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:00 UTC)" (scheduled at 2026-02-09 19:02:55.255808+00:00)
+2026-02-09 19:02:55,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:00 UTC)" executed successfully
+2026-02-09 19:02:59,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:03:29 UTC)" (scheduled at 2026-02-09 19:02:59.788163+00:00)
+2026-02-09 19:03:00,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:05 UTC)" (scheduled at 2026-02-09 19:03:00.255808+00:00)
+2026-02-09 19:03:00,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:05 UTC)" executed successfully
+2026-02-09 19:03:00,292 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:03:29 UTC)" executed successfully
+2026-02-09 19:03:00,292 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2026-02-09 19:03:05,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:10 UTC)" (scheduled at 2026-02-09 19:03:05.255808+00:00)
+2026-02-09 19:03:05,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:10 UTC)" executed successfully
+2026-02-09 19:03:10,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:15 UTC)" (scheduled at 2026-02-09 19:03:10.255808+00:00)
+2026-02-09 19:03:10,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:15 UTC)" executed successfully
+2026-02-09 19:03:15,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:20 UTC)" (scheduled at 2026-02-09 19:03:15.255808+00:00)
+2026-02-09 19:03:15,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:20 UTC)" executed successfully
+2026-02-09 19:03:20,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:25 UTC)" (scheduled at 2026-02-09 19:03:20.255808+00:00)
+2026-02-09 19:03:20,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:25 UTC)" executed successfully
+2026-02-09 19:03:25,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:30 UTC)" (scheduled at 2026-02-09 19:03:25.255808+00:00)
+2026-02-09 19:03:25,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:30 UTC)" executed successfully
+2026-02-09 19:03:29,788 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2026-02-09 19:03:59 UTC)" (scheduled at 2026-02-09 19:03:29.788163+00:00)
+2026-02-09 19:03:30,256 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:35 UTC)" (scheduled at 2026-02-09 19:03:30.255808+00:00)
+2026-02-09 19:03:30,256 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2026-02-09 19:03:35 UTC)" executed successfully
